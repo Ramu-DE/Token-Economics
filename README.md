@@ -50,6 +50,9 @@ flowchart LR
 | A4 Ray Serve | ⏸ | Not applied — provisions extra inf2 nodes |
 | Track B | ⏸ | Needs KONNECT_TOKEN + Arize keys |
 
+## Pending modules
+See [pending-modules/](pending-modules/README.md) for per-module flow diagrams, status and exact remaining steps.
+
 ## Gotchas found
 - Shell default region is us-east-1 but cluster is us-west-2: `export AWS_REGION=us-west-2 AWS_DEFAULT_REGION=us-west-2 CLUSTER_NAME=$EKS_CLUSTER_NAME`
 - `AGENT_KEY` (A1 virtual key) must be exported; it is not in `.env`.
